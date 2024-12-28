@@ -23,7 +23,7 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       ),
       body: Column(
         children: [
-          Image.asset('images/einstein.jpg'),
+          Image.asset('images/flutter.jpg'),
         ],
       ),
     );
