@@ -15,10 +15,16 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
         title: Text('Learn Flutter'),
         automaticallyImplyLeading: false,
         leading: IconButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            icon: Icon(Icons.arrow_back_ios)),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          icon: Icon(Icons.arrow_back_ios),
+        ),
+      ),
+      body: Column(
+        children: [
+          Image.asset('images/einstein.jpg'),
+        ],
       ),
     );
   }
