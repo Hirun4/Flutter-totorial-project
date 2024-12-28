@@ -23,7 +23,14 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       ),
       body: Column(
         children: [
-          Image.asset('images/flutter.jpg'),
+          Container(
+            height: 300,
+            child: Image.asset('images/flutter.jpg'),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Divider()
         ],
       ),
     );
